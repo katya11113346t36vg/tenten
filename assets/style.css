@@ -198,9 +198,6 @@ header {
 	gap: 32px;
 }
 
-.questions_left {
-}
-
 .questions_img {
 	position: relative;
 	img {
@@ -284,6 +281,45 @@ header {
 		transform: rotate(180deg);
 	}
 }
+
+/*Services*/
+
+.accordion-content-price{
+	display: none;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.info-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 20px;
+  }
+
+  .info-description {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+  }
+
+
+  .price-section {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	word-spacing: 60px;
+
+	
+  }
+
+  .accordion-item.active .accordion-content-price {
+	display: flex;
+}
+
+
 
 /*Footer*/
 
