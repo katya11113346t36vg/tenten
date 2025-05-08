@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.9/inputmask.min.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
@@ -88,8 +89,8 @@
             <div class="questions_left">
                 <div class="questions_img">
                     <picture>
-                        <source srcset="assets/home/img/questions-2.png" media="(max-width: 1063px)" />
-                        <img src="./assets/home/img/questions.png" alt="questions.png">
+                        <source srcset="assets/home/img/questions-2.png" media="(max-width: 1063px)"/>
+                        <img loading="lazy" src="./assets/home/img/questions.png" alt="questions.png">
                     </picture>
                     <div class="questions_head">
                         <h2>ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
@@ -102,7 +103,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header">
                             <span>Как обрабатываются инструменты?</span>
-                            <img src="./assets/home/img/elements/arrow-top.svg" alt="">
+                            <img loading="lazy" src="./assets/home/img/elements/arrow-top.svg" alt="">
                         </button>
                         <div class="accordion-content">
                             <p>Дезинфекция (предстерилизационная очистка).Осуществляется путем замачивания инструмента
@@ -119,7 +120,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header">
                             <span>Одноразовые ли расходники?</span>
-                            <img src="./assets/home/img/elements/arrow-top.svg" alt="">
+                            <img loading="lazy" src="./assets/home/img/elements/arrow-top.svg" alt="">
                         </button>
                         <div class="accordion-content">
                             <p>Контент</p>
@@ -171,7 +172,8 @@
         <section class="connection">
             <h1>ОСТАЛИСЬ ВОПРОСЫ?</h1>
             <input
-                    placeholder="+ 7 (***) *** – ** – **"
+                    type="tel" id="phone"
+                    placeholder="+7 (___) ___-__-__"
                     required/>
             <button class="button button_access connection_btn">Мы с вами свяжемся !</button>
             <p>Нажимая кнопку, вы соглашаетесь с нашими Положениями и условиями.</p>
@@ -182,16 +184,16 @@
             <img class="footer_logo" src="assets/home/img/logo2.png" alt="">
             <div class="footer_ss">
                 <a href="#">
-                    <img src="assets/home/img/Group 600.svg" alt="">
+                    <img loading="lazy" src="assets/home/img/Group 600.svg" alt="">
                 </a>
                 <a href="#">
-                    <img src="assets/home/img/Group 602.svg" alt="">
+                    <img loading="lazy" src="assets/home/img/Group 602.svg" alt="">
                 </a>
                 <a href="#">
-                    <img src="assets/home/img/Group 603.svg" alt="">
+                    <img loading="lazy" src="assets/home/img/Group 603.svg" alt="">
                 </a>
                 <a href="#">
-                    <img src="assets/home/img/Group 604.svg" alt="">
+                    <img loading="lazy" src="assets/home/img/Group 604.svg" alt="">
                 </a>
             </div>
         </div>
@@ -205,4 +207,5 @@
 </div>
 </body>
 <script src="./js/index.js"></script>
+
 </html>

@@ -1,3 +1,5 @@
+Inputmask({ mask: "+7 (999) 999-99-99" }).mask("#phone");
+
 const burgerMenu = document.querySelector('.burger-menu')
 const burger = document.querySelector('.burger')
 document.querySelectorAll('.accordion-header').forEach(header => {
