@@ -21,16 +21,16 @@
         <a href="index.html">
             <img src="assets/home/img/logo1.png" alt="" class='header_img'>
         </a>
-        <div class="header_links">
+        <nav class="header_links">
             <a href="#">Отзывы</a>
             <a href="about.html">О нас</a>
             <a href="#">Записаться</a>
-        </div>
+        </nav>
         <div class="burger">
             <img src="./assets//img/burger.svg" class="burger_access" alt="burger"/>
             <img src="./assets//img/X.svg" class="burger_x" alt="burger"/>
         </div>
-        <div class="burger-menu">
+        <nav class="burger-menu">
             <div class="burger-menu_item">
                 <a href="index.html" class="acttive-link">Главная</a>
             </div>
@@ -49,20 +49,22 @@
             <div class="burger-menu_item">
                 <a href="#">Записаться</a>
             </div>
-        </div>
+        </nav>
     </header>
     <main class="center">
-        <div class="main_top">
-            <img src="assets/home/img/image 75.png" alt="" class='main_img'>
-            <img src="assets/home/img/image 76.png" alt="" class='main_img'>
-            <img src="assets/home/img/image 74.png" alt="" class='main_img'>
-        </div>
-        <div class="main_bottom">
-            <h1>СДЕЛАЕМ МАНИКЮР <br> ПОД ЛЮБОЕ ВАШЕ НАСТРОЕНИЕ!</h1>
-            <div class="button button_z">
-                Записаться
+        <section class="pictures">
+            <div class="slider-track">
+                <img src="assets/home/img/image 75.png" alt="" class='main_img'>
+                <img src="assets/home/img/image 76.png" alt="" class='main_img'>
+                <img src="assets/home/img/image 74.png" alt="" class='main_img'>
             </div>
-        </div>
+            <div class="main_bottom">
+                <h1>СДЕЛАЕМ МАНИКЮР <br> ПОД ЛЮБОЕ ВАШЕ НАСТРОЕНИЕ!</h1>
+                <div class="button button_access">
+                    Записаться
+                </div>
+            </div>
+        </section>
         <div class="main_top2">
             <h1>ПОПУЛЯРНЫЕ УСЛУГИ</h1>
             <p class="text" style="margin: auto;">
@@ -70,7 +72,7 @@
             </p>
         </div>
         <div class="main_bottom2">
-            <div class="button button_e">
+            <div class="button button_primary">
                 Ещё услуги
             </div>
         </div>
@@ -81,12 +83,14 @@
             </p>
         </div>
         <div class="main_bottom3">
-            <img src="assets/home/img/image 68.png" alt="" class='main_img3'>
         </div>
         <section class="questions">
             <div class="questions_left">
                 <div class="questions_img">
-                    <img src="./assets/home/img/questions.png" alt="questions.png">
+                    <picture>
+                        <source srcset="assets/home/img/questions-2.png" media="(max-width: 1063px)" />
+                        <img src="./assets/home/img/questions.png" alt="questions.png">
+                    </picture>
                     <div class="questions_head">
                         <h2>ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
                         <p>Найдите ответы на часто задаваемые вопросы о стерилизации, правилах и требованиях.</p>
@@ -163,6 +167,14 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="connection">
+            <h1>ОСТАЛИСЬ ВОПРОСЫ?</h1>
+            <input
+                    placeholder="+ 7 (***) *** – ** – **"
+                    required/>
+            <button class="button button_access connection_btn">Мы с вами свяжемся !</button>
+            <p>Нажимая кнопку, вы соглашаетесь с нашими Положениями и условиями.</p>
         </section>
     </main>
     <footer class="center">
