@@ -720,15 +720,27 @@ header {
       .card {
         background-color: #fceeee;
         border-radius: 12px;
-        padding: 16px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
         flex: 1 1 30%;
         max-width: 32%;
+        padding: 0; 
       }
       
       .card-img {
         width: 100%;
-        border-radius: 10px;
-        margin-bottom: 12px;
+        display: block;
+        border-radius: 0; 
+      }
+      
+      /* обёртку под текст, чтобы оставить отступы */
+      .card-content {
+        padding: 16px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
       
       .card h3 {
