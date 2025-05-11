@@ -1105,3 +1105,99 @@ footer {
     font-size: 1.1rem;
     align-items: center;
 }
+
+/* Преимущества */
+.content-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+  
+  .left-side h1 {
+    font-size: 2rem;
+  }
+  
+  .beige-box {
+    background-color: #FEF5F3;
+    display: flex;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 85%;
+    max-height: 85%;
+    margin-top: 1.5rem;
+  }
+  
+  .icons-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .icons-column img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+  }
+  
+  .text-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .text-column p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .right-side img {
+    width: 100%;
+    max-width: 100%;
+ 
+    object-fit: cover;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 1440px) {
+    .beige-box {
+        max-width: 82%;
+    }
+}
+  @media (max-width: 1060px) {
+    .content-block {
+      grid-template-columns: 1fr;
+    }
+  
+    .right-side img {
+      max-width: 100%;
+    }
+  
+    .beige-box {
+      flex-direction: row;
+      max-width: 100%;
+    }
+  
+    .left-side {
+      order: 2;
+    }
+  
+    .right-side {
+      order: 1;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1062px) {
+    .responsive-image {
+      display: none;
+    }
+  }
