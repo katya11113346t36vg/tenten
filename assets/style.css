@@ -619,9 +619,9 @@ header {
 
 .about_locations-wrapper {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
-    gap: 1.875rem; /* 30px */
+    gap:  1,25rem; /* 30px */
 }
 
 .about_location {
@@ -688,6 +688,23 @@ header {
     padding: 0.75rem 1.75rem; /* 12px 28px */
 }
 
+.about_location-map {
+    display: flex;
+    justify-content: end;
+    margin-top: 1.875rem; /* 30px */
+}
+
+@media (max-width: 1063px) {
+    .about_locations-wrapper {
+        flex-wrap: wrap;
+    }
+    .about_location {
+        margin-bottom: 1.875rem; /* 30px */
+    }
+    .about_location-map{
+        justify-content: center;
+    }
+}
 @media (max-width: 768px) {
     .about {
         padding-top: 2rem;
