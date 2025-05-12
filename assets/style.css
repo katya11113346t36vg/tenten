@@ -239,7 +239,7 @@ header {
 .questions_right {
     background: #fef5f3;
     flex: 1;
-    padding: 5rem 2.1875rem;
+    padding: 11rem 2.1875rem;
     border-radius: 0.625rem;
 }
 
@@ -1124,9 +1124,9 @@ footer {
     padding: 1.5rem;
     border-radius: 10px;
     box-sizing: border-box;
-    max-width: 85%;
-    max-height: 85%;
-    margin-top: 1.5rem;
+    max-width: 800px;
+    max-height: 880px;
+    margin-top: 30px;
   }
   
   .icons-column {
@@ -1138,8 +1138,8 @@ footer {
   }
   
   .icons-column img {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     object-fit: contain;
   }
   
@@ -1162,15 +1162,20 @@ footer {
   .right-side img {
     width: 100%;
     max-width: 100%;
- 
     object-fit: cover;
   }
   
   /* Адаптивность */
   @media (max-width: 1440px) {
     .beige-box {
-        max-width: 82%;
+        max-width: 92%;
+        /* max-width: 500px;
+        max-height: 700px; */
     }
+    /* .icons-column img {
+        width: 55%;
+        height: 55%;
+    } */
 }
   @media (max-width: 1060px) {
     .content-block {
@@ -1200,4 +1205,5 @@ footer {
     .responsive-image {
       display: none;
     }
-  }
+}
+  
