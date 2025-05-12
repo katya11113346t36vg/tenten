@@ -171,7 +171,7 @@ header {
     align-items: center;
     color: #3b1c12;
     padding-top: 2.5rem;
-    padding-bottom: 3.75rem;
+    padding-bottom: 11rem;
 }
 
 .main_top3 {
@@ -1132,6 +1132,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     align-items: start;
+    padding-bottom: 11rem;
   }
   
   .left-side h1 {
