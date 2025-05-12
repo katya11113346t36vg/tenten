@@ -197,8 +197,28 @@ header {
     align-items: flex-end;
 }
 
+.services_title {
+    color: #3B1C12;
+    text-align: center;
+    font-size: 1.75rem; /* 28px */
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5; /* 150% */
+    text-transform: uppercase;
+    margin-top: 3.125rem;
+}
+
+.services_subtitle {
+    color: #3B1C12;
+    text-align: center;
+    font-size: 0.9375rem; /* 15px */
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 2.1875rem; /* 35px */
+}
+
 .questions {
-    margin: 7.5rem 0;
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
