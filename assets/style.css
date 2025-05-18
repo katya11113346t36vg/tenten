@@ -1158,6 +1158,62 @@ footer {
     font-size: 1.1rem;
     align-items: center;
 }
+.connection_services_i {
+    height: 34.5rem;
+    margin: 7.5rem 0;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.625rem;
+    background-image: url("/assets/home/img/connection.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.connection_services-form_i {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.connection_services_i h1 {
+    color: #FFF;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center;
+}
+
+.connection_services_i input {
+    width: 21.875rem;
+    display: flex;
+    padding: 0.75rem;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.3125rem;
+    background: #FFF;
+}
+
+.connection_services_i p {
+    align-self: stretch;
+    color: rgba(255, 252, 251, 0.81);
+    text-align: center;
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.connection_services_btn_i {
+    display: flex;
+    width: 21.875rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    align-items: center;
+}
 
 /* Преимущества */
 .content-block {
