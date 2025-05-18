@@ -879,7 +879,7 @@ footer {
 
     .scroll-item {
         flex: 0 0 auto;
-        width: 50%;
+        width: 60%;
         scroll-snap-align: center;
     }
 
@@ -1096,10 +1096,10 @@ footer {
 }
 
 /* Мобильная адаптация */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .cards-container {
     }
-}
+} */
 
 /* услуги форма обратной связи */
 .connection_services {
