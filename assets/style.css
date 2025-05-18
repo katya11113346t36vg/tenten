@@ -6,6 +6,7 @@
     background: transparent;
     h1 {
         font-size: 2em;
+        color: #3B1C12;
     }
 }
 
@@ -33,7 +34,7 @@ body {
 }
 
 a {
-    color: #3b1c12;
+    color: #3B1C12;
     font-size: 1.125rem;
     text-decoration: none;
 }
@@ -106,7 +107,7 @@ header {
 .burger-menu_item {
     padding: 1.875rem 0;
     text-align: center;
-    border-bottom: 0.0625rem #3b1c12 solid;
+    border-bottom: 0.0625rem #3B1C12 solid;
 }
 
 .pictures {
@@ -132,10 +133,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #3b1c12;
+    color: #3B1C12;
     padding-top: 2.5rem;
     padding-bottom: 3.75rem;
-    border-bottom: 0.0625rem #3b1c12 solid;
+    border-bottom: 0.0625rem #3B1C12 solid;
 }
 
 .button {
@@ -151,13 +152,13 @@ header {
 
 .button_access {
     text-align: center;
-    background: #108000;
+    background: #3B1C12;
     color: #fef5f3;
     border-radius: 0.3125rem;
 }
 
 .button_primary {
-    background: #3b1c12;
+    background: #108000;
     color: #fef5f3;
     border-radius: 0.3125rem;
 }
@@ -172,7 +173,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #3b1c12;
+    color: #3B1C12;
     padding-top: 2.5rem;
     padding-bottom: 11rem;
 }
@@ -267,7 +268,7 @@ header {
 }
 
 .accordion-item {
-    border-bottom: 0.0625rem solid #3b1c12;
+    border-bottom: 0.0625rem solid #3B1C12;
     padding-top: 0.9375rem;
     padding-bottom: 0.9375rem;
 }
@@ -277,7 +278,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #3b1c12;
+    color: #3B1C12;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -291,7 +292,7 @@ header {
 }
 
 .accordion {
-    border-top: 0.0625rem solid #3b1c12;
+    border-top: 0.0625rem solid #3B1C12;
 }
 
 .accordion-content {
@@ -1029,7 +1030,7 @@ footer {
 
 .subtitle {
     margin: 8px 0 20px;
-    color: #8e7b7b;
+    color: #3B1C12;
 }
 
 .cards-container {
@@ -1070,7 +1071,7 @@ footer {
     justify-content: space-between;
     font-weight: bold;
     text-align: left;
-    color: #3e2d2d;
+    color: #3B1C12;
 }
 
 .price-row small {
@@ -1266,7 +1267,7 @@ footer {
   .text-column p {
     margin: 0;
     font-size: 0.95rem;
-    color: #333;
+    color: #3B1C12;
   }
   
   .right-side img {
