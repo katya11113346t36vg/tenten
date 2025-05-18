@@ -10,7 +10,6 @@
 <div class="wrapper">
     <header class="center">
         <div class="header_links">
-            <a href="index.html">Главная</a>
             <a href="services.html">Услуги</a>
             <a href="sales.html" class="acttive-link">Акции</a>
         </div>
@@ -18,7 +17,6 @@
             <img src="assets/home/img/logo1.png" alt="" class='header_img'>
         </a>
         <nav class="header_links">
-            <a href="#">Отзывы</a>
             <a href="about.html">О нас</a>
             <a href="#">Записаться</a>
         </nav>
@@ -35,9 +33,6 @@
             </div>
             <div class="burger-menu_item">
                 <a href="sales.html" class="acttive-link">Акции</a>
-            </div>
-            <div class="burger-menu_item">
-                <a href="#">Отзывы</a>
             </div>
             <div class="burger-menu_item">
                 <a href="about.html">О нас</a>
@@ -60,7 +55,12 @@
             </div>
             <div class="promo_container container">
                 <div class="container_img">
-                    <img src="./assets/sales/img/image%2096.png" alt="">
+                    <picture>
+                        <!-- Показывать это изображение, если ширина экрана больше 768px -->
+                        <source srcset="./assets/sales/img/image%2096.png" media="(min-width: 768px)">
+                        <!-- Показывать это изображение по умолчанию (при ширине 768px и меньше) -->
+                        <img src="./assets/sales/img/image%2097.png" alt="Адаптивное изображение">
+                      </picture>
                 </div>
                 <div class="container_box friend">
                     <h3>ПРИВЕДИ ПОДРУГУ, ПОЛУЧИ СКИДКУ</h3>
@@ -79,7 +79,12 @@
                     </div>
                 </div>
                 <div class="container_img2">
-                    <img src="./assets/sales/img/image%2094.png" alt="">
+                    <picture>
+                        <!-- Показывать это изображение, если ширина экрана больше 768px -->
+                        <source srcset="./assets/sales/img/image%2094.png" media="(min-width: 768px)">
+                        <!-- Показывать это изображение по умолчанию (при ширине 768px и меньше) -->
+                        <img src="./assets/sales/img/image%2098.png" alt="Адаптивное изображение">
+                      </picture>
                 </div>
                 <div class="container_btn">
                     <button class="button button_access">
