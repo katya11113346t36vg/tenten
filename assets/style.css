@@ -152,13 +152,13 @@ header {
 
 .button_access {
     text-align: center;
-    background: #3B1C12;
+    background: #108000;
     color: #fef5f3;
     border-radius: 0.3125rem;
 }
 
 .button_primary {
-    background: #108000;
+    background: #3B1C12;
     color: #fef5f3;
     border-radius: 0.3125rem;
 }
