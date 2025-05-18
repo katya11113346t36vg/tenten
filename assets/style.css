@@ -113,18 +113,18 @@ header {
     padding-top: 1.25rem;
 }
 
-.slider-track {
+.horizontal-scroll {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
     gap: 2rem;
     align-items: center;
+}
 
-    img {
-        height: auto;
-        object-fit: cover;
-        border-radius: 0.5rem;
-        width: 100%;
-    }
+.scroll-item {
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    width: 100%;
 }
 
 
@@ -359,12 +359,23 @@ header {
     background-size: cover;
 }
 
+
+
 .connection h1 {
     color: #FFF;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
+}
+
+.card {
+    background-color: #fceeee;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 .connection input {
@@ -625,7 +636,7 @@ header {
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
-    gap:  1,25rem; /* 30px */
+    gap:  1.25rem; /* 30px */
 }
 
 .about_location {
@@ -668,6 +679,18 @@ header {
     flex: 1;
     min-width: 18.75rem; /* 300px */
     text-align: center;
+    display: flex;
+    justify-content: end;
+}
+.about_map {
+    width: 940px;
+    height: 340px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+.about_locations-content {
+    display: flex;
 }
 
 .about_location-map img {
@@ -692,13 +715,12 @@ header {
     padding: 0.75rem 1.75rem; /* 12px 28px */
 }
 
-.about_location-map {
-    display: flex;
-    justify-content: end;
-    margin-top: 1.875rem; /* 30px */
-}
+
 
 @media (max-width: 1063px) {
+    .about_locations-content {
+        flex-direction: column;
+    }
     .about_locations-wrapper {
         flex-wrap: wrap;
     }
@@ -749,12 +771,10 @@ header {
     }
 
     .about_locations-wrapper {
-        flex-direction: column;
         gap: 2rem;
     }
 
     .about_location {
-        width: 100%;
         margin-top: 1rem;
     }
 
@@ -779,7 +799,6 @@ header {
     }
 
     .about_button {
-        width: 100%;
         text-align: center;
         padding: 0.75rem;
         font-size: 1rem;
@@ -848,7 +867,7 @@ footer {
         font-size: 1.5rem;
     }
 
-    .slider-track {
+    .horizontal-scroll {
         display: flex;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
@@ -858,11 +877,21 @@ footer {
         padding: 1rem;
     }
 
-    .slider-track img {
+    .scroll-item {
         flex: 0 0 auto;
-        width: 60%; /* Можно подогнать под нужный размер */
+        width: 50%;
         scroll-snap-align: center;
     }
+
+    .cards-container {
+        width: 300px;
+        display: flex;
+        overflow-x: h;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 1rem;
+    }
+
 
     .burger {
         display: flex;
@@ -912,12 +941,6 @@ footer {
 
     .questions_left {
         width: 100%;
-    }
-
-    .slider-track img {
-        flex: 0 0 auto;
-        width: 50%;
-        scroll-snap-align: center;
     }
 
     .promo_container {
@@ -1016,17 +1039,6 @@ footer {
     flex-wrap: wrap;
 }
 
-.card {
-    background-color: #fceeee;
-    border-radius: 12px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 30%;
-    max-width: 32%;
-    padding: 0;
-}
-
 .card-img {
     width: 100%;
     display: block;
@@ -1086,12 +1098,6 @@ footer {
 /* Мобильная адаптация */
 @media (max-width: 768px) {
     .cards-container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .card {
-        max-width: 100%;
     }
 }
 
@@ -1108,6 +1114,12 @@ footer {
     background-image: url("/assets/services/img/Card.png");
     background-position: center;
     background-size: cover;
+}
+
+.connection_services-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .connection_services h1 {
