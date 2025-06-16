@@ -39,10 +39,17 @@ h1{
     font-family: 'DrukTextWideCyr';
 }
 
+span{
+    font-family: 'HelveticaNeueCyr-Medium';
+}
+
 h2{
     font-family: 'DrukTextWideCyr';
 }
 
+h3{
+    font-family: 'HelveticaNeueCyr-Medium';
+}
 html {
     font-size: 16px;
 }
@@ -613,10 +620,7 @@ header {
     border-left: none;
 }
 
-.about_stat-label {
-    font-size: 0.875rem; /* 14px */
-    color: #444;
-}
+
 
 .about_stat-value {
     font-size: 1.5rem; /* 24px */
@@ -702,7 +706,7 @@ header {
 .about_branch-phone {
     text-align: start;
     font-size: 0.875rem; /* 14px */
-    color: #444;
+    color: #3B1C12;
     line-height: 1.4;
     text-decoration: underline;
     cursor: pointer;
@@ -957,7 +961,7 @@ footer {
 
     .small-text {
         font-size: 0.875rem;
-        color: #666;
+        color: #3B1C12;
     }
 }
 
@@ -1114,7 +1118,7 @@ footer {
 }
 
 .more-btn {
-    background-color: #3c1f1f;
+    background-color: #3B1C12;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -1125,7 +1129,7 @@ footer {
 }
 
 .more-btn:hover {
-    background-color: #5a2d2d;
+    background-color: #3B1C12;
 }
 
 /* Мобильная адаптация */
