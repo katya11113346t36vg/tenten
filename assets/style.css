@@ -1132,6 +1132,13 @@ footer {
     text-align: left;
 }
 
+.button:hover {
+    background-color: #E4336C; /* цвет кнопки при наведении */
+    color: #FFFCFB; /* цвет текста при наведении */
+    text-decoration: none
+}
+
+
 .card p {
     text-align: left;
     margin-bottom: 16px;
