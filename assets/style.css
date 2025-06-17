@@ -97,7 +97,7 @@ header {
 }
 
 .header_img {
-    width: 9.1875rem;
+    width: 12.1875rem;
 }
 
 .header_links {
@@ -276,15 +276,19 @@ header {
 }
 
 .questions_head {
+    color: #fef5f3;
     position: absolute;
     bottom: 3.5rem;
     left: 0;
     padding-left: 0.875rem;
 }
 
+.questions_head h1{
+    color: #fef5f3;
+}
+
 .questions_head h2 {
     color: #fef5f3;
-    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
@@ -900,10 +904,6 @@ footer {
         display: none;
     }
 
-    a {
-        font-size: 1.5rem;
-    }
-
     .horizontal-scroll {
         display: flex;
         overflow-x: auto;
@@ -1027,15 +1027,51 @@ footer {
 
 @media (max-width: 480px) {
 
+    .questions_head {
+        bottom: 1.5rem;
+    }
+
+    .main_bottom{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1rem;
+
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .accordion {
+        font-size: 28px;
+    }
+
     .slider-track img {
         flex: 0 0 auto;
         width: 70%;
         scroll-snap-align: center;
     }
 
-    html {
-        font-size: 10px;
+    .questions_right{
+        font-size: 14px;
     }
+
+    html {
+        font-size: 15px;
+    }
+
 
     .questions_left {
         width: 100%;
@@ -1097,7 +1133,6 @@ footer {
 }
 
 .card p {
-    font-size: 0.9rem;
     text-align: left;
     margin-bottom: 16px;
 }
@@ -1217,7 +1252,6 @@ footer {
 
 .connection_services_i h1 {
     color: #FFF;
-    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
@@ -1238,7 +1272,7 @@ footer {
     align-self: stretch;
     color: rgba(255, 252, 251, 0.81);
     text-align: center;
-    font-size: 0.6875rem;
+    font-size: 0.9875rem;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
@@ -1261,9 +1295,6 @@ footer {
     padding-bottom: 11rem;
   }
   
-  .left-side h1 {
-    font-size: 2rem;
-  }
   
   .beige-box {
     background-color: #FEF5F3;
