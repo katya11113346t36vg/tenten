@@ -713,7 +713,6 @@ header {
 .about_branch-time,
 .about_branch-phone {
     text-align: start;
-    font-size: 0.875rem; /* 14px */
     color: #3B1C12;
     line-height: 1.4;
     text-decoration: underline;
@@ -816,11 +815,7 @@ header {
         margin-bottom: 1rem;
     }
 
-    .about_branch-address,
-    .about_branch-time,
-    .about_branch-phone {
-        font-size: 0.8125rem; /* 13px */
-    }
+
 
     .about_location-map img {
         max-width: 100%;
@@ -1030,6 +1025,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+
+    .about_locations-wrapper{
+        flex-direction: column
+    }
 
     .questions_head {
         bottom: 1.5rem;
