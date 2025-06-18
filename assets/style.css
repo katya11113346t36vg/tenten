@@ -166,7 +166,13 @@ header {
     border-radius: 0.5rem;
     width: 100%;
 }
-
+.promo_description h3{
+    color: #3B1C12;
+    font-size: 1.25rem;
+    font-style: revert;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
 
 .main_bottom {
     display: flex;
@@ -596,7 +602,6 @@ header {
 
 .about_tagline {
     color: #3B1C12;
-    font-size: 1.25rem; /* 20px */
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
@@ -762,9 +767,6 @@ header {
     .about_locations-content {
         flex-direction: column;
     }
-    .about_locations-wrapper {
-        flex-wrap: wrap;
-    }
     .about_location {
         margin-bottom: 1.875rem; /* 30px */
     }
@@ -780,11 +782,6 @@ header {
 
     .about_title {
         font-size: 1.5rem; /* 24px */
-    }
-
-    .about_subtitle,
-    .about_tagline {
-        font-size: 0.875rem; /* 14px */
     }
 
     .about_stats {
@@ -844,6 +841,18 @@ header {
         padding: 0.75rem;
         font-size: 1rem;
     }
+
+    .about_locations-container h3{
+        text-align: left;
+    }
+    .promo_description h3{
+    color: #3B1C12;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+    }
+    
 }
 
 
@@ -1051,11 +1060,8 @@ footer {
     }
 
     h3 {
-        font-size: 24px;
-    }
-
-    .accordion {
-        font-size: 28px;
+        font-size: 20px;
+        color: #3B1C12;
     }
 
     .slider-track img {
@@ -1064,9 +1070,7 @@ footer {
         scroll-snap-align: center;
     }
 
-    .questions_right{
-        font-size: 14px;
-    }
+
 
     html {
         font-size: 15px;
@@ -1182,7 +1186,6 @@ footer {
 
 /* услуги форма обратной связи */
 .connection_services {
-    height: 34.5rem;
     margin: 7.5rem 0;
     padding: 6rem 0;
     display: flex;
@@ -1224,7 +1227,7 @@ footer {
     align-self: stretch;
     color: rgba(255, 252, 251, 0.81);
     text-align: center;
-    font-size: 0.6875rem;
+    font-size: 13px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
@@ -1238,7 +1241,6 @@ footer {
     align-items: center;
 }
 .connection_services_i {
-    height: 34.5rem;
     margin: 7.5rem 0;
     padding: 6rem 0;
     display: flex;
@@ -1279,7 +1281,7 @@ footer {
     align-self: stretch;
     color: rgba(255, 252, 251, 0.81);
     text-align: center;
-    font-size: 0.9875rem;
+    font-size: 13px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
