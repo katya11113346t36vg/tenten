@@ -682,7 +682,6 @@ header {
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
-    gap:  1.25rem; /* 30px */
 }
 
 .about_location {
@@ -806,10 +805,6 @@ header {
 
     .about_locations-subtitle {
         font-size: 0.875rem;
-    }
-
-    .about_locations-wrapper {
-        gap: 2rem;
     }
 
     .about_location {
